@@ -14,7 +14,7 @@ exports.getAllSchool=(req,res)=>{
     res
     .status(200)
     .json({
-        success: false,
+        success: true,
         response
     })
    })
